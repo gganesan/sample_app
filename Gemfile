@@ -50,5 +50,6 @@ end
 
 group :test do
 	gem 'rspec'
+	gem 'spork-rails', '~> 4.0.0'
 end
 
