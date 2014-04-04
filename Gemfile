@@ -53,5 +53,7 @@ end
 group :test do
 	gem 'rspec'
 	gem 'spork-rails', '~> 4.0.0'
+	#gem 'nokogiri', '~> 1.6.1'
+	#gem 'webrat', '~> 0.7.3'
 end
 
