@@ -46,6 +46,8 @@ end
 
 group :developement do
 	gem 'rspec-rails'
+	gem 'guard-spork', '~> 1.5.1'
+    gem 'guard-rspec', '~> 4.2.4', require: false
 end
 
 group :test do
