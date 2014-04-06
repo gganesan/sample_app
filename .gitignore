@@ -18,3 +18,4 @@
 .rspec
 .herokuKeyGen
 .herokuKeyGen.pub
+.idea/
