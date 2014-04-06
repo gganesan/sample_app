@@ -13,8 +13,7 @@ class PagesControllerTest < ActionController::TestCase
   
   test "body should not be blank" do
 	get :home
-	#regex need to be fixed
-	assert_select 'body', /\s*/
+	assert_no_match /<body>\s*<\/body>/ , response.body
   end
   
   test "should get contact" do
